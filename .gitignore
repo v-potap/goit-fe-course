@@ -24,3 +24,7 @@ hs_err_pid*
 
 # additional tasks to GOIT FE course's modules shouldn't be added to repository
 /aw*/
+
+#models
+*.psd
+/model*/

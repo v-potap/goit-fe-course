@@ -1,0 +1,107 @@
+/* * {
+  outline: 1px solid #cba;
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: rgb(100, 100, 100);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header-nav-menu {
+  display: block;
+  width: 572px;
+  margin: auto;
+  padding: 78px 0px;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-header-nav-menu-item {
+  display: inline-block;
+  width: 80px;
+  line-height: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-header-nav-menu li:not(:last-child) {
+  margin-right: 84px;
+}
+
+.main-header-nav-menu a:hover,
+.main-header-nav-menu a:focus {
+  font-weight: bold;
+  outline: 1px solid;
+}
+
+.main-header-nav-menu-item-link {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-list-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  font-size: 14px;
+}
+
+.main-list-item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.img-title {
+  text-transform: uppercase;
+}
+
+.content-title {
+text-transform: capitalize;
+}
+
+.content-paragraph {
+  margin: 0;
+}
+
+.load-more {
+  display: block;
+  width: 164px;
+  height: 60px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: transparent
+}
