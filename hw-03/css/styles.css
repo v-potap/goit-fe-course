@@ -24,17 +24,15 @@ img {
 }
 
 .main-header-nav-menu {
-  display: block;
-  width: 572px;
   margin: auto;
   padding: 78px 0px;
   list-style: none;
   font-size: 0;
+  text-align: center;
 }
 
 .main-header-nav-menu-item {
   display: inline-block;
-  width: 80px;
   line-height: 12px;
   font-size: 12px;
   text-transform: uppercase;
@@ -53,7 +51,6 @@ img {
 
 .main-header-nav-menu-item-link {
   display: inline-block;
-  width: 80px;
   text-align: center;
   text-decoration: none;
   color: rgb(100, 100, 100);
@@ -67,6 +64,7 @@ img {
 
 .main-list {
   margin: 0;
+  margin-bottom: 60px;
   padding: 0;
   list-style: none;
   font-size: 0;
@@ -83,12 +81,24 @@ img {
   margin-right: 0px;
 }
 
+.content-section {
+  padding-bottom: 70px;
+}
+
+.content-img {
+  margin-bottom: 20px;
+}
+
 .img-title {
+  margin: 0;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
 .content-title {
-text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 40px;
+  text-transform: capitalize;
 }
 
 .content-paragraph {
@@ -99,9 +109,9 @@ text-transform: capitalize;
   display: block;
   width: 164px;
   height: 60px;
-  margin: 30px auto;
+  margin: auto;
   padding: 20px;
   border: 1px solid;
   cursor: pointer;
-  background-color: transparent
+  background-color: transparent;
 }
