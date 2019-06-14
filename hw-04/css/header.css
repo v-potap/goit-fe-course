@@ -1,0 +1,37 @@
+.menu-section {
+  padding: 40px 0px;
+}
+
+.logo {
+  font-size: 0; /* to hide text "Logo" */
+  float: left;
+}
+
+.menu {
+  float: right;
+  margin: 0 auto;
+  padding: 5px;
+  list-style: none;
+}
+
+.menu-item {
+  float: left;
+  text-transform: uppercase;
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 28px;
+}
+
+.menu-item-link {
+  color: rgba(31, 18, 18, 1);
+  text-decoration: none;
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+  color: rgba(26, 188, 156, 1);
+}
