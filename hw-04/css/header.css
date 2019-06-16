@@ -27,6 +27,7 @@
 }
 
 .menu-item-link {
+  display: block;
   color: rgba(31, 18, 18, 1);
   text-decoration: none;
 }
