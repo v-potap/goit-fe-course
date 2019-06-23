@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --hover-color-normal: rgba(25, 190, 155, 1);
+  --hover-color-light: rgba(125, 215, 200, 1);
+  --section-color: rgba(230, 240, 250, 1);
+  --section-title-color: rgba(80, 80, 80, 1);
+  --section-divider-color: rgba(25, 190, 155, 1);
+  --nav-menu-item-color: rgba(30, 20, 20, 1);
+  --button-shadowed: rgba(0, 0, 0, 0.6);
+  --footer-background-color-normal: rgba(50, 50, 50, 1);
+  --footer-background-color-light: rgba(140, 140, 140, 1);
+  --card-background:rgba(0, 0, 0, 0.6);
+}
+
+.visually__hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 1110px;
+  margin: 0 auto;
+}
