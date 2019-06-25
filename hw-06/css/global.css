@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Kaushan Script', cursive;
+  font-family: 'Roboto', sans-serif; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* COLORS */
+  --color-body-background: rgba(255,255,255,1);
+  --color-navigation-menu-item: rgba(150, 225, 210, 1);
+  --color-navigation-menu-item-hovered: rgba(255, 225, 140, 1);
+  --color-content-title: rgba(50, 50, 50, 1);
+  --color-content-text: rgba(150, 150, 150, 1);
+  --color-content-icon: rgba(150, 225, 210, 1);
+  --color-team-pic-gradient-from: rgba(240, 130, 130, 1);
+  --color-team-pic-gradient-to: rgba(255, 225, 140, 1);
+  --color-team-pic-shadow: rgba(150, 225, 210, 1);
+  --color-social-icon: rgba(240, 130, 130, 1);
+  --color-social-icon-hovered: rgba(150, 225, 210, 1);
+
+  /* FONTS */
+  --font-kaushan: "Kaushan Script", cursive;
+  --font-roboto: "Roboto", sans-serif;
+  --font-montserrat:"Montserrat", sans-serif;
+
+  /* FONT SIZES */
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
