@@ -5,7 +5,7 @@
   top: 0;
   width: 100%;
   background-color: var(--color-body-background);
-  z-index: 1;
+  z-index: 10;
   /* shadow */
 }
 
@@ -40,9 +40,12 @@
 }
 
 .navigation-menu-item-link {
+  display: block;
   text-decoration: none;
   color: var(--color-navigation-menu-item);
   padding: 0 0 6px 0;
+  border-bottom-width: 3px;
+  border-bottom: 3px solid transparent;
 }
 
 .navigation-menu-item a:hover,

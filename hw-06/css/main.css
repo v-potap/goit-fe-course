@@ -27,12 +27,15 @@
   text-transform: uppercase;
 }
 
-.section-title-divider {
+.section-title::after {
+  content: "";
+  display: block;
+  margin: 25px auto 65px;
   background-color: var(--color-social-icon);
-  min-width: 60px;
-  min-height: 3px;
-  margin-bottom: 65px;
+  width: 60px;
+  height: 8px;
 }
+
 
 .section-list {
   display: flex;
@@ -126,11 +129,17 @@
 }
 
 .team-list-item-link:hover .overlay {
-  transition-property: opacity;
-  transition-duration: 0.2s;
+  transition-property: all;
+  transition-duration: 200ms;
   transition-timing-function: linear;
   transition-delay: 0;
-  opacity: 0.7;
+  background: linear-gradient(
+    to bottom,
+    var(--color-team-pic-gradient-from),
+    var(--color-team-pic-gradient-to)
+  );
+  opacity: 1;
+  z-index: 1;
 }
 
 .overlay {
@@ -143,15 +152,11 @@
   flex-wrap: nowrap;
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    to bottom,
-    var(--color-team-pic-gradient-from),
-    var(--color-team-pic-gradient-to)
-  );
   box-shadow: 9px 9px 3px var(--color-social-icon-hovered);
   width: 100%;
   height: 100%;
   opacity: 0;
+  z-index: -1;
 }
 
 .team-list-item-title {
@@ -189,15 +194,15 @@
 }
 
 .action-button {
+  display: block;
   width: 100%;
   height: 100%;
   border: 1px solid var(--color-social-icon);
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: transparent;
+  background-color: var(--color-navigation-menu-item-hovered);
 }
 
 .action-button:hover {
