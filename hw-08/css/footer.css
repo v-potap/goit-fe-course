@@ -30,7 +30,7 @@
 .inputs * {
   font-family: var(--font-montserrat);
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   color: var(--color-input-placeholders);
 }
@@ -84,7 +84,7 @@
   text-transform: uppercase;
   font-family: var(--font-montserrat);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   color: var(--color-body-background);
   background-color: var(--color-content-icon);

@@ -13,7 +13,7 @@
 
 .section-title {
   font-family: var(--font-montserrat);
-  font-size: 40px;
+  font-size: 53px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -25,7 +25,7 @@
 
 .section-description {
   font-family: var(--font-droid);
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 400;
   color: var(--color-content-text);
@@ -58,7 +58,7 @@
 .services-list-item-header {
   padding: 90px 0 0 0;
   font-family: var(--font-montserrat);
-  font-size: 18px;
+  font-size: 24px;
   text-transform: capitalize;
   color: var(--color-content-title);
 }
@@ -66,7 +66,7 @@
 .services-list-item-paragraph {
   padding: 20px 0 0 0;
   font-family: var(--font-roboto);
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   color: var(--color-content-text);
   margin-bottom: 100px;
