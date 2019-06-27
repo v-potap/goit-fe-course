@@ -1,8 +1,8 @@
-/* .main {
+.main {
   display: flex;
   flex-direction: column;
   padding: 190px 0 0 0;
-} */
+}
 
 .section-services {
   display: flex;
@@ -15,9 +15,12 @@
   font-family: var(--font-montserrat);
   font-size: 53px;
   font-weight: 700;
-  color: var(--color-content-title);
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.main .section-title {
+  color: var(--color-content-title);
 }
 
 .section-description {
