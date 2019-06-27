@@ -73,19 +73,19 @@
 }
 
 .icon-basket {
-  background: url("../img/icon-01-basket.png");
+  background: url("../img/icon01-basket.png");
   background-repeat: no-repeat;
   background-position: 50% 0%;
 }
 
 .icon-laptop {
-  background: url("../img/icon-02-laptop.png");
+  background: url("../img/icon02-laptop.png");
   background-repeat: no-repeat;
   background-position: 50% 0%;
 }
 
 .icon-locked {
-  background: url("../img/icon-03-locked.png");
+  background: url("../img/icon03-locked.png");
   background-repeat: no-repeat;
   background-position: 50% 0%;
 }
