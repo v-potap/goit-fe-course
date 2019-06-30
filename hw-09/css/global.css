@@ -56,7 +56,6 @@ img {
 }
 
 .container {
-  display: block;
-  width: 322px;
-  margin: 0 auto;
+  min-width: 322px;
+  max-width: 1200px;
 }
