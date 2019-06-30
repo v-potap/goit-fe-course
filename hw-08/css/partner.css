@@ -1,0 +1,108 @@
+.section-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+    padding: 70px 0 0;
+    font-family: var(--font-montserrat);
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-content-title);
+    text-align: center;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.partners-list-item {
+  text-align: center;
+  width: 100%;
+}
+
+.partners-list-item-img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.partners-list-item-link {
+  display: block;
+  margin: 0 auto;
+  max-width: 122px;
+  position: relative;
+}
+
+.partners-list-item-link::after {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 41px;
+}
+
+.icon-tv::after {
+  content: url("../img/icon-01-tv.png");
+}
+
+.icon-coffee::after {
+    content: url("../img/icon-02-coffee.png");
+}
+
+.icon-bottle::after {
+    content: url("../img/icon-03-bottle.png");
+}
+
+.icon-telegram::after {
+    content: url("../img/icon-04-telegram.png");
+}
+
+.partners-list-item-name {
+    padding: 20px 0;
+    margin: 0 auto;
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-content-title);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.partners-list-item-description {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-family: var(--font-roboto);
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--color-content-text);
+    text-align: center;
+    margin-bottom: 30px;
+    /* width: 61%; */
+}
+
+.button-see-other {
+    margin: 0 auto;
+    padding: 0;
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-button-background);
+    background: var(--color-navigation-menu-item);
+    text-align: center;
+    border-radius: 20px;
+    min-height: 40px;
+    width: 87%;
+    border-color: var(--color-button-background);
+    cursor: pointer;
+    margin-bottom: 50px;
+}

@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  /* font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif; */
 }
 
@@ -24,21 +23,23 @@ img {
 
 :root {
   /* COLORS */
-  --color-body-background: rgba(255,255,255,1);
-  --color-navigation-menu-item: rgba(35, 35, 35, 1);
-  --color-navigation-menu-item-hovered: rgba(255, 210, 50, 1);
+  --color-body-background: rgba(255, 255, 255, 1);
+  --color-header-background: rgba(0, 0, 0, 1);
+
+  --color-navigation-menu-item: rgba(255, 255, 255, 1);
+  --color-navigation-menu-item-hovered: rgba(255, 255, 255, 1);
+  --color-navigation-menu-bg: transparent;
+  --color-navigation-menu-bg-hovered: rgba(25, 25, 25, 1);
+
   --color-content-title: rgba(50, 50, 50, 1);
   --color-content-text: rgba(150, 150, 150, 1);
-  --color-content-icon: rgba(255, 210, 50, 1);
-  --color-footer-background: rgba(35, 35, 35, 1);
-  --color-input-placeholders: rgba(185,185,185,1);
+
+  --color-button-background: rgba(255, 80, 80, 1);
+  --color-button-border: rgba(255, 80, 80, 1);
 
   /* FONTS */
-  --font-golden: 'Golden', 'Lily Script One', sans-serif;
-  --font-droid: 'DroidSerif-Italic', 'Amaranth', sans-serif;
-  --font-roboto: 'Roboto Slab', 'Roboto', sans-serif;
-  --font-montserrat:"Montserrat", sans-serif;
-
+  --font-roboto: "Roboto Slab", "Roboto", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -56,6 +57,6 @@ img {
 
 .container {
   display: block;
-  width: 940px;
+  width: 322px;
   margin: 0 auto;
 }
