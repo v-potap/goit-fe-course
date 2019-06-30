@@ -42,9 +42,9 @@
   }
 }
 
-@media (min-width: 960px) {
+@media screen and (min-width: 1440px) {
   .container {
-    width: 960px;
+    width: 1440px;
   }
 
   /* .section-promo {
@@ -52,21 +52,21 @@
   } */
 
   .navigation {
- width: 95%;
+ width: 65%;
   }
 
   .promo-title {
-    width: 52.5%;
+    width: 35%;
     font-size: 48px;
   }
   .promo-description {
-    width: 40.5%;
+    width: 27%;
     font-size: 22px;
   }
 
   .button-promo,
   .button-see-other {
-    width: 22.5%;
+    width: 15%;
   }
 
 

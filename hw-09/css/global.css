@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* COLORS */
+  --color-body-background: rgba(255, 255, 255, 1);
+  --color-header-background: rgba(0, 0, 0, 1);
+
+  --color-navigation-menu-item: rgba(255, 255, 255, 1);
+  --color-navigation-menu-item-hovered: rgba(255, 255, 255, 1);
+  --color-navigation-menu-bg: transparent;
+  --color-navigation-menu-bg-hovered: rgba(25, 25, 25, 1);
+
+  --color-content-title: rgba(50, 50, 50, 1);
+  --color-content-text: rgba(150, 150, 150, 1);
+
+  --color-button-background: rgba(255, 80, 80, 1);
+  --color-button-border: rgba(255, 80, 80, 1);
+
+  /* FONTS */
+  --font-roboto: "Roboto Slab", "Roboto", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  width: 322px;
+  margin: 0 auto;
+}
