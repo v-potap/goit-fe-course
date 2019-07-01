@@ -5,8 +5,8 @@
       var(--color-header-background)
     );
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
+  background-position: inherit;
+  background-size: auto auto;
 }
 
 .section-promo {
