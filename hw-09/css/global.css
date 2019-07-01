@@ -54,8 +54,8 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+/* 
 .container {
   min-width: 322px;
   max-width: 1200px;
-}
+} */

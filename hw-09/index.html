@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
 
-    
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/promo.css" />
@@ -25,39 +24,57 @@
     />
 
     <!-- <link rel="stylesheet" href="./css/media.css" /> -->
-
   </head>
 
   <body>
     <h1 class="visually-hidden">Find your holiday partner</h1>
 
-    <header class="header container">
-      <section class="section-promo row">
-        <nav class="navigation row">
-          <a href="#" class="navigation-logo col-12 col-md-6">URLAUBSGLÜCK</a>
+    <header class="header container-fluid">
+      <div class="row justify-content-center align-items-start">
+        <div class="section-promo col-12">
+          <div class="row justify-content-center">
+            <nav class="navigation col-12">
+              <div class="row flex-md-row-reverse justify-content-between align-items-center">
+                <div class="col-12 col-md-6">
+                  <ul
+                    class="navigation-menu row justify-content-center align-items-center"
+                  >
+                    <li class="navigation-menu-item log-in col-4">
+                      <a href="#" class="navigation-menu-item-link">Log in</a>
+                    </li>
+                    <li class="navigation-menu-item sign-up col-4">
+                      <a href="#" class="navigation-menu-item-link">Sign up</a>
+                    </li>
+                  </ul>
+                </div>
+                <a href="#" class="navigation-logo col-12 col-md-6">URLAUBSGLÜCK</a>
+              </div>
+            </nav>
+          </div>
 
-          <ul class="navigation-menu col-12 -col-md-6">
-            <li class="navigation-menu-item log-in">
-              <a href="#" class="navigation-menu-item-link">Log in</a>
-            </li>
-            <li class="navigation-menu-item sign-up">
-              <a href="#" class="navigation-menu-item-link">Sign up</a>
-            </li>
-          </ul>
-        </nav>
+          <div class="row justify-content-center">
+            <h2 class="promo-title col-12 col-md-6 col-lg-6">
+              Share your holiday dreams
+            </h2>
 
-        <h2 class="promo-title col-6">Share your holiday dreams</h2>
-        <p class="promo-description col-6">
-          And find the perfect partner to fullfill it
-        </p>
-        <button class="button-promo col-4">Find your holiday partner</button>
-      </section>
+            <p class="promo-description col-10 col-md-10 col-lg-10">
+              And find the perfect partner to fullfill it
+            </p>
+
+            <button class="button-promo col-10 col-md-4 col-lg-3">
+              Find your holiday partner
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="main container">
-      <section class="section-partners row">
-        <h2 class="section-title">Meet a partner for your best holiday</h2>
-        <ul class="partners-list row">
+      <section class="section-partners row justify-content-center">
+        <h2 class="section-title col-10 col-md-6">
+          Meet a partner for your best holiday
+        </h2>
+        <ul class="partners-list row justify-content-center">
           <li class="partners-list-item col-12 col-md-6 col-lg-3">
             <a href="#" class="partners-list-item-link icon-tv">
               <img
@@ -69,12 +86,12 @@
               />
             </a>
             <h3 class="partners-list-item-name">Bradley Hunter</h3>
-            <p class="partners-list-item-description">
+            <p class="partners-list-item-description col-9 col-lg-12">
               Based in Chicago. I love playing tennis and loud music.
             </p>
           </li>
 
-          <li class="partners-list-item  col-12 col-md-6 col-lg-3">
+          <li class="partners-list-item col-12 col-md-6 col-lg-3">
             <a href="#" class="partners-list-item-link icon-coffee">
               <img
                 class="partners-list-item-img"
@@ -85,13 +102,13 @@
               />
             </a>
             <h3 class="partners-list-item-name">Lucas Marsha</h3>
-            <p class="partners-list-item-description">
+            <p class="partners-list-item-description col-9 col-lg-12">
               I get my inspiration from nature and objects around me. I have a
               passion to colours, typography and skateboards.
             </p>
           </li>
 
-          <li class="partners-list-item  col-12 col-md-6 col-lg-3">
+          <li class="partners-list-item col-12 col-md-6 col-lg-3">
             <a href="#" class="partners-list-item-link icon-bottle">
               <img
                 class="partners-list-item-img"
@@ -102,12 +119,12 @@
               />
             </a>
             <h3 class="partners-list-item-name">Heather Walker</h3>
-            <p class="partners-list-item-description">
+            <p class="partners-list-item-description col-9 col-lg-12">
               I'm a happy person that loves cats and climbing on mountains.
             </p>
           </li>
 
-          <li class="partners-list-item  col-12 col-md-6 col-lg-3">
+          <li class="partners-list-item col-12 col-md-6 col-lg-3">
             <a href="#" class="partners-list-item-link icon-telegram">
               <img
                 class="partners-list-item-img"
@@ -118,12 +135,14 @@
               />
             </a>
             <h3 class="partners-list-item-name">Bradley Hunter</h3>
-            <p class="partners-list-item-description">
+            <p class="partners-list-item-description col-9 col-lg-12">
               Based in Chicago. I love playing tennis and loud music.
             </p>
           </li>
         </ul>
-        <button class="button-see-other col-4">See other partners</button>
+        <button class="button-see-other col-10 col-md-4 col-lg-3">
+          See other partners
+        </button>
       </section>
     </main>
   </body>

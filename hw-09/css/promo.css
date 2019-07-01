@@ -1,4 +1,4 @@
-.header {
+.header { 
   background: url("../img/banner.png"),
     linear-gradient(
       var(--color-header-background),
@@ -6,27 +6,20 @@
     );
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
+  background-size: auto auto;
 }
 
 .section-promo {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  /* background-attachment: fixed; */
+  align-items: center; */
   min-height: 540px;
   position: relative;
 }
 
 .navigation {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  align-items: center;
   padding: 20px 0;
-  min-height: 190px;
-  width: 90%;
+  min-height: 200px;
 }
 
 .navigation-logo {
@@ -36,17 +29,19 @@
   color: var(--color-navigation-menu-item);
   background: var(--color-navigation-menu-bg);
   text-decoration: none;
+  text-align: center;
 }
 
 .navigation-menu {
-  display: flex;
-  flex-direction: row;
   list-style: none;
+  text-align: center;
+  margin-bottom: 0px;
+  /* padding: 20px; */
 }
 
 .navigation-menu-item-link {
   display: block;
-  padding: 10px 18px;
+  /* padding: 10px 18px; */
   font-family: var(--font-montserrat);
   font-size: 14px;
   font-weight: bold;
@@ -59,6 +54,11 @@
   border: 2px solid var(--color-navigation-menu-item);
   background: var(--color-navigation-menu-bg);
   border-radius: 18px;
+  padding: 10px 20px;
+}
+
+.log-in {
+  padding: 10px 0;
 }
 
 .sign-up:hover,
@@ -68,7 +68,7 @@
 }
 
 .promo-title {
-  padding: 20px 0;
+  padding: 20px 0px;
   font-family: var(--font-montserrat);
   font-size: 30px;
   font-weight: bold;
@@ -76,7 +76,6 @@
   background: var(--color-navigation-menu-bg);
   text-transform: uppercase;
   text-align: center;
-  width: 93%;
 }
 
 .promo-description {
@@ -88,12 +87,11 @@
   color: var(--color-navigation-menu-item);
   background: var(--color-navigation-menu-bg);
   text-align: center;
-  width: 67%;
 }
 
 .button-promo {
   margin: 0 auto;
-  padding: 0;
+  padding: 13px 74px;
   font-family: var(--font-montserrat);
   font-size: 14px;
   font-weight: bold;
@@ -101,8 +99,8 @@
   background: var(--color-button-background);
   text-align: center;
   border-radius: 20px;
-  min-height: 40px;
-  width: 86%;
+  /* min-height: 40px; */
   border: none;
   cursor: pointer;
+  margin-bottom: 140px;
 }
