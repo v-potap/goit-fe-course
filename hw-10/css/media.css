@@ -3,27 +3,27 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .icon-alarm::before {
-    background-image: url("../img/icon-1-alarm@2X.png");
+    background-image: url("../img/icon-1-alarm@2X-min.png");
   }
 
   .icon-linegraph::before {
-    background-image: url("../img/icon-2-line-graph@2X.png");
+    background-image: url("../img/icon-2-line-graph@2X-min.png");
   }
 
   .icon-computer::before {
-    background-image: url("../img/icon-3-computer@2X.png");
+    background-image: url("../img/icon-3-computer@2X-min.png");
   }
 
   .icon-book::before {
-    background-image: url("../img/icon-4-book@2X.png");
+    background-image: url("../img/icon-4-book@2X-min.png");
   }
 
   .icon-home::before {
-    background-image: url("../img/icon-5-home@2X.png");
+    background-image: url("../img/icon-5-home@2X-min.png");
   }
 
   .icon-image::before {
-    background-image: url("../img/icon-6-image@2X.png");
+    background-image: url("../img/icon-6-image@2X-min.png");
   }
 
   .header {
@@ -34,21 +34,21 @@
         from(var(--color-team-pic-gradient-from)),
         to(var(--color-team-pic-gradient-to))
       ),
-      url("../img/bground@2X.png");
+      url("../img/bground@2X-min.png");
     background: -webkit-linear-gradient(
         var(--color-team-pic-gradient-from),
         var(--color-team-pic-gradient-to)
       ),
-      url("../img/bground@2X.png");
+      url("../img/bground@2X-min.png");
     background: -o-linear-gradient(
         var(--color-team-pic-gradient-from),
         var(--color-team-pic-gradient-to)
       ),
-      url("../img/bground@2X.png");
+      url("../img/bground@2X-min.png");
     background: linear-gradient(
         var(--color-team-pic-gradient-from),
         var(--color-team-pic-gradient-to)
       ),
-      url("../img/bground@2X.png");
+      url("../img/bground@2X-min.png");
   }
 }

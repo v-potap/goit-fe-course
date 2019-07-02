@@ -125,27 +125,27 @@
 }
 
 .icon-alarm::before {
-  background-image: url("../img/icon-1-alarm@1X.png");
+  background-image: url("../img/icon-1-alarm@1X-min.png");
 }
 
 .icon-linegraph::before {
-  background-image: url("../img/icon-2-line-graph@1X.png");
+  background-image: url("../img/icon-2-line-graph@1X-min.png");
 }
 
 .icon-computer::before {
-  background-image: url("../img/icon-3-computer@1X.png");
+  background-image: url("../img/icon-3-computer@1X-min.png");
 }
 
 .icon-book::before {
-  background-image: url("../img/icon-4-book@1X.png");
+  background-image: url("../img/icon-4-book@1X-min.png");
 }
 
 .icon-home::before {
-  background-image: url("../img/icon-5-home@1X.png");
+  background-image: url("../img/icon-5-home@1X-min.png");
 }
 
 .icon-image::before {
-  background-image: url("../img/icon-6-image@1X.png") no-repeat;
+  background-image: url("../img/icon-6-image@1X-min.png") no-repeat;
 }
 
 /* TEAM */
