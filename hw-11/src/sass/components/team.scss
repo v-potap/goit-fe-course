@@ -1,0 +1,127 @@
+.team__paragraph {
+  max-width: 940px;
+  margin: 0 0 90px 0;
+  font-size: 15px;
+  color: $color__content__text;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  flex: 0 0 340px;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+
+  &__item {
+    display: flex;
+    flex: 0 0 383px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+
+    &-link {
+      display: block;
+      position: relative;
+      margin-bottom: 30px;
+
+      &:hover .overlay {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+        transition-delay: 0;
+        background: linear-gradient(
+          to bottom,
+          $color__overlay-gradient--from,
+          $color__overlay-gradient--to
+        );
+        opacity: 1;
+        z-index: 1;
+      }
+    }
+
+    &-title {
+      font-family: $font-montserrat;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    &-description {
+      font-family: $font-roboto;
+      font-weight: 100;
+      font-style: italic;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  box-shadow: 9px 9px 3px $color__social-icon__hovered--fg;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* BUTTONS */
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 0 0 224px;
+  height: 56px;
+
+  &__item {
+    flex: 0 0 56px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    &-button {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 1px solid $color__social-icon--fg;
+      margin: 0 auto;
+      padding: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: $color__social-icon--bg;
+
+      .svg-icon {
+        display: block;
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 10%;
+        fill: $color__social-icon--fg;
+      }
+
+      &:hover {
+        background-color: $color__social-icon__hovered--bg;
+
+        .svg-icon {
+          fill: $color__social-icon__hovered--fg;
+        }
+      }
+    }
+  }
+}

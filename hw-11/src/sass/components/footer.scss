@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  border-top: 1px solid $color__social-icon__hovered--fg;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  &__content {
+    font-family: $font-montserrat;
+    font-size: 14px;
+
+    &--highlighted {
+      color: $color__social-icon__hovered--fg;
+    }
+  }
+}
+
+.input-block {
+  display: flex;
+  justify-content: flex-end;
+  max-height: 40px;
+  width: 380px;
+  font-family: $font-montserrat;
+  font-size: 14px;
+
+  &__field {
+    width: 230px;
+    padding-left: 15px;
+  }
+
+  &__button {
+    border: none;
+    background: $color__social-icon__hovered--fg;
+    color: $color__body--background;
+    width: 150px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+}

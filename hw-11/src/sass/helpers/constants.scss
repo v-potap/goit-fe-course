@@ -1,1 +1,25 @@
-$main-color:green;
+// COLORS
+$color__body--background: rgba(255, 255, 255, 1);
+
+$color__content__title: rgba(50, 50, 50, 1);
+$color__content__text: rgba(150, 150, 150, 1);
+$color__content__icon: rgba(150, 225, 210, 1);
+
+$color__navigation-menu__item: rgba(150, 225, 210, 1);
+$color__navigation-menu__item--hovered: rgba(255, 80, 80, 1);
+$color__navigation-menu__button--background: transparent;
+$color__navigation-menu__button--background-hovered: rgba(25, 25, 25, 1);
+
+$color__overlay-gradient--from: rgba(240, 130, 130, 0.8);
+$color__overlay-gradient--to: rgba(255, 225, 140, 0.8);
+$color__overlay-shadow: rgba(150, 225, 210, 1);
+
+$color__social-icon--fg: rgba(240, 130, 130, 1);
+$color__social-icon--bg: rgba(255, 225, 140, 1);
+$color__social-icon__hovered--fg: rgba(150, 225, 210, 1);
+$color__social-icon__hovered--bg: rgba(240, 130, 130, 1);
+
+// FONTS
+$font-kaushan: 'Kaushan Script';
+$font-roboto: 'Roboto';
+$font-montserrat: 'Montserrat';

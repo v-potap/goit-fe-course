@@ -2,5 +2,16 @@
    Import partials below
 */
 @import './normalize';
+
+@import './helpers/fonts.scss';
 @import './helpers/constants.scss';
+@import './helpers/globals.scss';
+
+@import './utils/placeholders.scss';
+@import './utils/mixins.scss';
+
 @import './components/header.scss';
+@import './components/main.scss';
+@import './components/services.scss';
+@import './components/team.scss';
+@import './components/footer.scss';
